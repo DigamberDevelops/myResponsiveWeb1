@@ -7,11 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Define your custom colors here
-        'primary': '#3b82f6', // Example: blue-500
-        'secondary': '#10b981', // Example: emerald-500
+        
+        'primary': '#3b82f6',
+        'secondary': '#10b981', 
         'accent': '#9b70ff',
-        'essence': '#595858d4',// Example: violet-500
+        'essence': '#595858d4',
         'custom-colours': {
           100: '#ffffff',
           200: '#f3e7fc',
@@ -25,7 +25,7 @@ export default {
         }
       },
       fontFamily: {
-        // The name 'Roboto' here must match the font-family in Step 2
+        
         roboto: ['Roboto', 'sans-serif'],
       }
     },
